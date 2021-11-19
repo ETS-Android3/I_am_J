@@ -35,7 +35,7 @@
         <item name="colorPrimary">@color/accent</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <!--color of thumb when inactive-->
-        <item name="colorSwitchThumbNormal">@color/icons</item>
+        <item name="colorSwitchThumbNormal">@color/light_primary_color</item>
         <!--Inactive track color-->
         <item name="android:colorForeground">@color/primary_text</item>
     </style>
@@ -56,7 +56,7 @@
 
     <!--Change color of title on Toolbar-->
     <style name="ToolbarTitleTextAppearanceLight" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/secondary_text_light</item>
 
     </style>
     <style name="ToolbarTitleTextAppearanceDark" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
@@ -111,7 +111,7 @@
         <!--color of thumb when inactive-->
         <item name="colorSwitchThumbNormal">@color/amber</item>
         <!--Inactive track color-->
-        <item name="android:colorForeground">@color/icons</item>
+        <item name="android:colorForeground">@color/primary_text</item>
 
 
     </style>
